@@ -1,7 +1,6 @@
-import CartWidget from "./CartWidget/CartWidget"
-import "./Navbar.css"
-
-const navbar = () => {
+import CartWidget from "../CartWidget/CartWidget"
+import "./NavBar.css"
+const NavBar = () => {
   return (
     <header>
         <h1>
@@ -20,9 +19,8 @@ const navbar = () => {
                 </li>
             </ul>
         </nav>
-    <CartWidget />
+        <CartWidget/>
     </header>
   )
 }
-
-export default navbar
+export default NavBar
