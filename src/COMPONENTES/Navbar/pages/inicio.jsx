@@ -1,11 +1,12 @@
-import CartWidget from "../CartWidget/CartWidget"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './navBar.css'
+import "./inicio.css"
 import {Link, NavLink} from "react-router-dom"
 
-const NavBar = () => {
+import "./inicio.css"
+
+function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -13,15 +14,17 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="../NavBar/pages/inicio.jsx">inicio</Nav.Link>
-            <Nav.Link href="../NavBar/pages/productos.jsx">productos</Nav.Link>
-            <Nav.Link href="../NavBar/pages/">contacto</Nav.Link>
+            <Nav.Link href="./inicio.jsx">inicio</Nav.Link>
+            <Nav.Link href="../pages/inicio.jsx">productos</Nav.Link>
+            <Nav.Link href="#link">contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <CartWidget/>
     </Navbar>
-  )
+  );
 }
+    <>
+        <h1>pagina de inicio</h1>
+    </>
 
-export default NavBar
+export default BasicExample;

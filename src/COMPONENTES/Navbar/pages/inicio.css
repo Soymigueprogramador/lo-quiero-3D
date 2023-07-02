@@ -6,7 +6,8 @@
 body{
     background-color: black;
 }
-h2{
+h1{
+    color: white;
+    font-size: 20px;
     text-align: center;
-    color: yellow;
 }
