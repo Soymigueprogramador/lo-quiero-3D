@@ -1,9 +1,9 @@
 //aca voy a crear el array de los productos. 
 const productos = [
     { id: "1", nombre: "mate", precio: 500, stock: 10, img: "../public/img/mate.jpg", idCategorias: "1" },
-    { id: "2", nombre: "juguetes", precio: 200, stock: 10, img: "", idCategorias: "2" },
+    { id: "2", nombre: "juguetes", precio: 200, stock: 10, img: "../public/img/cochecito.jpg", idCategorias: "2" },
     { id: "3", nombre: "muñecos", precio: 1000, stock: 10, img: "../public/img/muñeco-de-shakira.jpg", idCategorias: "3" },
-    { id: "4", nombre: "llaveros", precio: 150, stock: 10, img: "", idCategorias: "4" },
+    { id: "4", nombre: "llaveros", precio: 150, stock: 10, img: "../public/img/llavero.jpg", idCategorias: "4" },
 ]
 //voy a crear esta funcion para los productos. 
 export const getProductos = () => {
